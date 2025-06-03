@@ -1,5 +1,8 @@
 # UnfuckMyHeadset
-automatically disable telephony service on bluetooth headsets to prevent audio stutter in games
+automatically disable telephony service on bluetooth headsets to
+stop windows from switching to your headset mic, reducing audio quality or to prevent audio stutter in games
+
+(keep in mind that if you use this, you will need a separate microphone from the one in your headset if you still want a mic)
 
 ## why?
 Often, bluetooth headsets have issues like stuttering, popping or skipping every few seconds, or even switching to low bandwidth
