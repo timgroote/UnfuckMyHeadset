@@ -18,5 +18,5 @@ UnfuckMyHeadset aims to provide a one-click (or even zero click) solution to fix
 ## how?
 This dotnet console application enumerates your paired bluetooth devices and tries to identify
 bluetooth headsets and headphones.
-If any of them have the remote telephony service enabled, this service will disable them.
+If any of them have the remote telephony service enabled, this service will disable that service.
 The program will then terminate.

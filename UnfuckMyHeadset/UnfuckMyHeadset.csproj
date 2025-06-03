@@ -2,10 +2,15 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net8.0-windows</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <ApplicationIcon>forbidden_mobile_phones_icon_183529.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="forbidden_mobile_phones_icon_183529.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="InTheHand.Net.Bluetooth" Version="4.2.1" />
